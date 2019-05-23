@@ -8,7 +8,7 @@ import numpy as np
 
 # Points earned depending on the position (from first to last)
 weights_12p = np.array([15, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]) # 12 players
-weights_10p = [] # 10 players
+weights_10p = [12, 10, 8, 7, 6, 5, 4, 3, 2, 1] # 10 players
 
 # Total points per race
 total_12p = sum(weights_12p)
